@@ -1,6 +1,5 @@
 import argparse
 import os
-import pathlib
 
 from blocks import Blocks
 from display_game import display_game
