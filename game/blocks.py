@@ -1,3 +1,7 @@
+from dataclasses import dataclass
+
+
+@dataclass
 class Blocks:
     def create_from_file(self, filename: str) -> None:
         with open(filename) as f:
